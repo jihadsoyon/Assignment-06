@@ -1,16 +1,22 @@
-# React + Vite
+📝 Description
+DigiTools Platform is a modern digital marketplace UI designed for browsing and purchasing premium AI tools and software assets with ease. It is built to showcase a variety of professional resources aimed at boosting user productivity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Technologies Used
+The project is built using the following modern tech stack:
 
-Currently, two official plugins are available:
+React.js – For building a scalable, component-based UI structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tailwind CSS – For a modern, responsive, and clean utility-first design.
 
-## React Compiler
+React Router – For seamless navigation within the Single Page Application (SPA).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Lucide React / HeroIcons – For high-quality, pixel-perfect iconography.
 
-## Expanding the ESLint configuration
+Local Storage / JSON – For efficient dynamic product data management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Key Features
+Dynamic Product Grid: Product cards are rendered dynamically from a products.json file, keeping the system lightweight and easy to manage.
+
+Fully Responsive Design: The project is fully optimized for Desktop, Tablet, and Mobile devices using a Flexible Grid and Flexbox layout system.
+
+Clean Dashboard UI: Features a premium dashboard interface for tools like AI Writing Pro, Design Templates, and Automation Toolkits, providing a high-end user experience.

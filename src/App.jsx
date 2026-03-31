@@ -8,6 +8,8 @@ import MainSection from "./components/MainSection";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import CTABanner from "./components/CTABanner";
+import Footer from "./components/Footer";
+
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -41,7 +43,8 @@ function App() {
       <Steps/>
       <Pricing />
        <CTABanner />
-
+      <Footer />
+      
       {/* React Toastify */}
       <ToastContainer />
     </div>
